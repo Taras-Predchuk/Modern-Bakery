@@ -1,0 +1,52 @@
+.form-label {
+    display: block;
+}
+
+.form-input {
+    padding: 16px 42px;
+    width: 100%;
+    font-size: 16px;
+    line-height: 1.17;
+    border: 1px solid var(--secondary-color-dark);
+    border-radius: 8px;
+    background-color: transparent;
+}
+
+.form-input:focus {
+    outline: none;
+    border-color: var(--brand-color-normal);
+}
+
+.form-input::placeholder {
+    color: var(--secondary-color-dark);
+}
+
+.form-input:focus::placeholder {
+    color: var(--color-dark);
+    font-size: 16px;
+    line-height: 1.17;
+}
+
+.form-field {
+    margin-bottom: 32px;
+}
+
+.form-button {
+    display: block;
+    margin: 0 auto 24px;
+}
+
+.form-terms {
+    margin: 0 auto;
+    max-width: 220px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: center;
+
+}
+
+.form-terms-link {
+    color: var(--color-dark);
+    text-underline-offset: 2px;
+}
