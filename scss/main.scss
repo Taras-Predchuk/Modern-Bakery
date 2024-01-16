@@ -8,6 +8,8 @@
 
 @import './components/buttons';
 
+@import './components/input';
+
 @import './components/links';
 
 /* Header */
@@ -32,7 +34,7 @@
 @import './components/carousel';
 
 /* Contact section */
-@import './components/contacts-section';
+@import './layouts/contact-section';
 
 /* Footer */
 @import './components/footer';
@@ -41,7 +43,7 @@
 @import './components/modal';
 
 /* Form */
-@import './components/form';
+@import './layouts/form-terms';
 
 
 .section {
