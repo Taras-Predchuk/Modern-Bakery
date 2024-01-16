@@ -12,7 +12,7 @@
     transition: opacity .3s, visibility .3s;
 }
 
-.backdrop {
+.backdrop.is-hidden {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
