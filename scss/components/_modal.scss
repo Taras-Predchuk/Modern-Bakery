@@ -1,5 +1,5 @@
 .backdrop {
-  padding: 20px 0;
+  padding: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -23,14 +23,25 @@
   width: 100%;
   max-width: 880px;
   height: 100%;
-  padding: 128px;
+  padding: 48px;
   background-color: var(--color-light);
   border-radius: 32px;
   overflow-y: auto;
 
+   @media screen and (min-width: $bp-tablet) {
+      padding: 128px;
+    }
+
   &__btn-close {
     position: absolute;
     top: 40px;
+    right: 50px;
+    background-color: transparent;
+    border: none;
+
+    &:hover {
+      transform: scale(1.2);
+    }
   }
 
   &__form-field {
